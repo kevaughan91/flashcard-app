@@ -1,1 +1,8 @@
-decks view
+
+
+<div *ngIf="decks" class="">
+    <div class="" *ngFor="let deck of decks">
+            {{deck.deckName}}
+    </div>
+   
+</div>
