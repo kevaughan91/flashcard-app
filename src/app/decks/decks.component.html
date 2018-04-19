@@ -1,8 +1,10 @@
 
 
-<div *ngIf="decks" class="">
-    <div class="" *ngFor="let deck of decks">
+<div *ngIf="decks" class="row">
+    <div *ngFor="let deck of decks" class="col-3">
+        <img class="deck-image" src="/assets/images/deck.png">
+        <div class="centered">
             {{deck.deckName}}
+        </div>
     </div>
-   
 </div>

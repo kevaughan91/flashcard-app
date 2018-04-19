@@ -1,0 +1,13 @@
+.container {
+    text-align:center;
+}
+
+.centered {
+    position:absolute;
+    -webkit-transform: translate(140%, -550%);
+    transform: translate(140%, -550%);
+}
+
+.deck-image {
+    width:100%;
+}
